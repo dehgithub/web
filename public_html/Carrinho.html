@@ -6,7 +6,7 @@
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.css" />        
+        <link rel="stylesheet" href="css/bootstrap.css" />       
         <link rel="stylesheet" href="css/Rodape.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet"/>
@@ -17,6 +17,17 @@
                 margin-bottom: 20px;
                 background-color: #fff;
             }
+            .tabela tr{
+                border-bottom: solid 1px #AAAAAA;
+                padding: 10px 3px;
+            }
+            
+            .tabela{
+                /*remove os espaços entre as células*/
+                border-collapse: collapse;
+                width: 100%;
+            .center{
+                text-align: center;
         </style>
 
 
@@ -103,49 +114,76 @@
 
 
             </div>
+            
 
-            <!------------------------------------------------------------------------->
-
-
-            <div class="row">
-
-
-                <div class="col">
-
-                    <div class="float-left">
-
+                <img src="https://a-static.mlcdn.com.br/618x463/notebook-samsung-essentials-e34-intel-core-i3-4gb-1tb-led-156-full-hd-windows-10/magazineluiza/217604700/3cd374809c39e0d6eac1c9b8fafe51c4.jpg"/>
+                <h4>R$ 2.249,99</h4>
+                <p>10x de R$ 224,99 s/juros</p>
+                <a href="#" class="btn btn-outline-info"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Comprar</a>
+                <br><br>
+                <p><i class="fa fa-th-list" aria-hidden="true"></i>R$ 2.024,99 no Boleto Bancário</p>
+                <p><i class="fa fa-credit-card" aria-hidden="true"></i>R$ 2.024,99 em 1x no Cartão de Crédito</p>
+                <p><i class="fa fa-credit-card" aria-hidden="true"></i>Ou R$ 2.137,49 em até 18x de R$ 118,74 s/juros</p>
+                
+                <p>Calcule o frete do seu produto:</p>
+                
+                <label class="titulo" ></label><br/>
+                <input class="campo" name="cep" type="text" placeholder="Digite seu CEP" />
+                <br/><br/>
+                
+                <a href="#" class="btn btn-outline-info">Calcular</a>
+                
+            
+          
+                <br><br>
+               
                         <table class="table">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">Protuto</th>
-                                    <th scope="col">Quantidade</th>
-                                    <th scope="col">Preço</th>
+                                    <th scope="col">Ficha Técnica</th>
+                                    <th scope="col">Descrição</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
 
-                                    <td>Notebook Acer Aspire</td>
-                                    <td>5</td>
-                                    <td>2.189,90</td>
+                                    <td>Marca</td>
+                                    <td>Samsung</td>
                                 </tr>
                                 
                                 <tr>
-                                    <td>Samsung Galaxy S6 Duos</td>
-                                    <td>1</td>
-                                    <td>1.250,00</td>
+                                    <td>Cor</td>
+                                    <td>Preto</td>
                                 </tr>
                                 
                                 <tr>
-                                    <td>Fone De Ouvido</td>
-                                    <td>25</td>
-                                    <td>54,00</td>
+                                    <td>Tela</td>
+                                    <td>15.6</td>
                                 </tr>
                                 
                                 <tr>
-                                    <td>Impressora HP </td>
-                                    <td>4</td>
-                                    <td>350,00</td>
+                                    <td>Sistema Operacional</td>
+                                    <td>Windows 10</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Processador</td>
+                                    <td>Intel Core i7</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Memória RAM</td>
+                                    <td>8GB</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Leitor de Cartão</td>
+                                    <td>Não</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Conexões</td>
+                                    <td>HDMI</td>
                                 </tr>
                                 
                             </tbody>
@@ -155,101 +193,60 @@
 
                     </div>
 
-                </div>
-            </div>
 
+<div class="row">
 
+            <div class="col">
 
-
-                <div class="row">
+            <div id="menu-horizontal">
                 
-                <div class="col">
+ 
 
-
-                    <h6>DEPARTAMENTOS</h6>
-
-                    <div style="font-size:13px; line-height:19px; margin-top:8px;">
-                        <p><a href="https://www.google.com.br/search?q=celular+samsung+j7&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj1teKe2sjXAhVHl5AKHSdsDiEQ_AUICygC&biw=1366&bih=662#imgrc=_" target="_top">Celulares</a></p>
-                        <p><a href="https://www.google.com.br/search?q=notebook&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiRxMi72sjXAhVHQpAKHc1nCo8Q_AUICygC&biw=1366&bih=662" target="_top">Notebook</a></p>
-                        <p><a href="https://www.google.com.br/search?biw=1366&bih=662&tbm=isch&sa=1&ei=rXUQWuXaBMu5wATI04go&q=computadores&oq=computadores&gs_l=psy-ab.3...26257.28682.0.28889.12.12.0.0.0.0.139.1111.8j3.11.0....0...1.1.64.psy-ab..1.6.650...0j0i67k1.0.687sBgb1yTA" target="_top">Computador</a></p>
-                        <p><a href="https://www.google.com.br/search?biw=1366&bih=662&tbm=isch&sa=1&ei=ynUQWt7YM4aqwASVgpWYDw&q=perifericos&oq=perife&gs_l=psy-ab.3.1.0l10.19420.23440.0.25244.14.8.6.0.0.0.121.810.4j4.8.0....0...1.1.64.psy-ab..0.14.861...0i67k1.0.ZBq5SwktKsQ" target="_top">Periférico</a></p>
-                        <p><a href="https://www.google.com.br/search?biw=1366&bih=662&tbm=isch&sa=1&ei=-nUQWpGLGYSpwATlhZMQ&q=hardware&oq=hardw&gs_l=psy-ab.3.0.0l2j0i10i67k1j0j0i67k1j0j0i67k1j0j0i67k1j0.3028.4818.0.7331.5.5.0.0.0.0.144.571.0j5.5.0....0...1.1.64.psy-ab..0.5.570....0.kACVEdxZK7o" target="_top">Hardware</a></p>
-                        <p><a href="https://www.google.com.br/search?biw=1366&bih=662&tbm=isch&sa=1&ei=AnYQWpjJNYXGwAS26rHoCg&q=redes&oq=redes&gs_l=psy-ab.3..0i67k1j0j0i67k1j0j0i67k1l2j0l4.20957.21560.0.21821.5.5.0.0.0.0.110.513.1j4.5.0....0...1.1.64.psy-ab..0.5.512...0i10i67k1.0.XXlyp9jz4lw" target="_top">Redes</a></p>
-                    </div>
-                    
-                </div>
-                
-                <div class="col">
-
-                    <h6>INSTITUCIONAL</h6>
-
-                    <div style="font-size:13px; line-height:18px; margin-top:8px;">
-                        <p><a href="https://pt.wix.com/" target="_top">Sobre o Site</a></p>
-                        <p><a href="https://www.eshopsobral.com.br/politicas-do-site" target="_top">Políticas do site</a></p>
-                        <p><a href="http://politicaprivacidade.com/" target="_top">Política de Privacidade</a></p>
-                    </div>
-                    
-                    <div class="col">
-
-                    <h6>ATENDIMENTO</h6>
-
-                    <div style="font-size:12px; margin-top:8px;">
+                <div id="finais">
+                    <div id="texto">
+                        <i style="font-size:18px">ATENDIMENTO</i>
                         <p>
-                            Horário de atendimento: 08:00 às 20:00 de segunda à sábado.<br />
-                            Endereço: Rua Ronaldo Diogo, 299 <br> Morumbi - Paranavaí (PR) - CEP: 87703-070<br />
-                            E-mail: <a href="https://outlook.live.com/owa/?mkt=pt-br">deh_phn_fer@hotmail.com</a><br/>
-                            Celular: (44)99988-9327
+                            Horário de atendimento: 08:00 às 20:00 de segunda à sábado.<br/>
+                            Endereço: Rua Ronaldo Diogo, 299 <br> Morumbi - Paranavaí (PR) - CEP: 87703-070 <br/>
                         </p>
                     </div>
+                </div>
+                   </div> 
+                
+                <div id="finais">           
+                    Redes de Contato
+                    <div id="rede">
+                        <p>
+                            <i class="fa fa-facebook-official" style="font-size:24px"></i> 
+                        </p>     
+                        <p>
+                            <i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 24px"></i>
+                        </p>     
+                        <p>
+                            <i class="fa fa-instagram" aria-hidden="true" style="font-size: 24px"></i>
+                        </p>
+                    </div>
+                </div> 
+                
+                    </div>
+                <div id="finais">
+                    Contato
+                    <p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i>fernandesdebii@gmail.com
+                    </p>
 
-
+                </div>
+                
             </div>
 
-        </div>
+                
 
-    </div>
-    <!------------------------------------------------------------------->
-
-    <div class="row">
+            
 
 
-        <!----------------------------------------------------------------->
-        <!DEPARTAMENTOOO>
+       
+        
 
-
-        <div class="col">
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-    </div>
-
-
-    <div class="col">
-
-
-
-    </div>
-
-
-    <div class="col">
-
-
-
-
-    </div>
 
 
 

@@ -1,0 +1,145 @@
+body {
+    /* Define um fundo, pode ser uma imagem ou cor */
+    background-color: #dddddd;
+    /* Tipo da fonte */
+    font-family: "Roboto";
+    /* Cor da fonte */
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+}
+#titulo{
+    /* Tamanho da font */
+    font-size: 17px;
+    /* Negrito ou n�o */
+    font-weight: bold;
+}
+
+#titulo span{
+    font-weight: normal;
+}
+
+#trabalho{
+    background-color: #AAAAAA;
+    padding: 5px 20px;
+}
+
+#botao{
+    background: #2494FF;
+    color: #FFFFFF;
+    padding: 6px 220px;
+    border: none;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+#campo{
+    border-left-color: #AAAAAA;
+    border-width: 0px 0px 0px 5px;              
+    background: #FFFFFF;
+    padding: 10px 3px;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+#h1{
+    text-align: center;
+    font-weight: bold;
+}
+#h2{
+    padding-left: 5px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+}
+#h5{
+    text-align: center;
+}
+#conteudo{
+    background: #EEEEEE;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+
+    width: 900px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+#center{
+    text-align: center;
+}
+
+#cor {
+    color: #AAAAAA;
+    background-color: #AAAAAA;
+}
+
+#detalhe {
+    color: #333333;
+}
+
+#lista {
+    font-family: "Oswald";
+    font-size: 18px;
+}
+
+#icones {
+    height: 25%;
+    display: -webkit-flex;
+    display: flex;
+    webkit-align-items: center;
+    align-items: center;
+    webkit-justify-content: center;
+    justify-content: center;
+}
+#menu-horizontal ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333333;
+    text-align: center;
+}
+
+#menu-horizontal ul li{
+    display: inline;
+}
+
+#menu-horizontal li {
+    display: inline;
+    text-align: center;
+    
+}
+#menu-horizontal li a:visited, a:link{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+}
+#menu-horizontal li a:hover {
+    background-color: #242424;
+    text-align: center;
+}
+#menu-horizontal2 {
+    height: 25%;
+    display: -webkit-flex;
+    display: flex;
+    webkit-align-items: center;
+    align-items: center;
+    webkit-justify-content: center;
+    justify-content: center;
+    background-color: #CCCCCC;
+}
+
+#texto {
+    text-align: justify;
+    text-align: center;
+    float: left;
+}
+
+#finais{
+    padding: 5px 5px;
+}
+
+#rede {
+    display: -webkit-flex;
+    display: flex;
+}
