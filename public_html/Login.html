@@ -4,6 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/Login.css" />
+        <script>
+            $(document).ready(function () {
+
+                $("#btnLogin").click(function () {
+                    if ($("input[name=login]").val() == "") {
+                        window.alert("Preencha o login!");
+                        $("input[name=login]").focus();
+                        
+                    } else if ($("input[name=senha]").val() == "") {
+                        window.alert("A senha não foi digitada");
+                        $("input[name=senha]").focus();
+                        
+                    } else {
+                        window.alert("Login efetuado!");
+                        $("input[name=login]").val("");
+                        $("input[name=senha]").val("");
+                    }
+
+                });
+
+            });
+        </script>
     </head>
     
     <body>
